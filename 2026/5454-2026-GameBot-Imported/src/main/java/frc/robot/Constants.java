@@ -215,8 +215,8 @@ public final class Constants {
     public static final double kTrackingSpeed=0.05454;
     public static final double trackerDeadBand =1.0;
 
-    public static final double kTurretOffsetX=0;
-    public static final double kTurretOffsetY=0;
+    public static final double kTurretOffsetX = -0.0762; // 3 toward back  -> negative X
+    public static final double kTurretOffsetY =  0.1397; // 5.5 to the left -> positive Y
     public static final double kMinShootingDistance=0;
     public static final double kMaxShootingDistance=100;
     public static final double kMinAngleDegrees=0;
